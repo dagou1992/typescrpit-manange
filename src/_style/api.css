@@ -1,0 +1,71 @@
+.container {
+    background: #f0f2f5;
+    padding: 50px;
+}
+
+.tree, .tabContainer {
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    width: 100%;
+    padding: 24px;
+}
+
+.icon {
+    font-size: 26px;
+    color: #08c;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background: #5a7ea0;
+    color: #fff;
+}
+
+.icon:first-child {
+    margin-right: 15px;
+}
+
+.container .ant-card-body {
+    padding: 5px;
+}
+
+table thead, table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #d3dfed;
+}
+table {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d3dfed;
+}
+
+table td, table th {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    color: #5a7ea0;
+}
+
+table tr:nth-child(even) {
+    background: #d3dfed;
+}
+table tr:nth-child(odd) {
+    background: #FFF;
+}
+
+pre {
+    background: #fafafa;
+}
+
+.tabContent {
+    width: 45%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ant-card:first-child {
+    box-shadow: 0 0 9px #ddd;
+}
